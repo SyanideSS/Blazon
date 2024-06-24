@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/syanihrg/fnc.syanidess.co.za/
+    - /bin/cp ./wwwroot/* $DEPLOYPATH
