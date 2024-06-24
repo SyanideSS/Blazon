@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/syanihrg/fnc.syanidess.co.za/
-    - /bin/cp ./wwwroot/* $DEPLOYPATH
+    - /bin/cp -r ./wwwroot/* $DEPLOYPATH
